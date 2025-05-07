@@ -1,0 +1,10 @@
+[project]
+name = "griffe-training"
+version = "0.1.0"
+description = "A simple project for learn griffe"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "griffe>=1.7.3",
+    "htmy>=0.7.4",
+]
