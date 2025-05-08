@@ -1,7 +1,8 @@
 import griffe
 
+loader = griffe.GriffeLoader()
 package_name = "htmy"
-my_package = griffe.load(package_name)
+my_package = loader.load(package_name)
 
 
 def colorizer(text):
