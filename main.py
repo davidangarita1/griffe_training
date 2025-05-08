@@ -39,9 +39,9 @@ def package_members():
 
 
 def package_to_json():
-    json_str = my_package.as_json()
-    max_chars = 150
-    print(f"{colorizer(f'Package {package_name} to JSON:')}\n{json_str[:max_chars]}\n")
+    max_chars = 1500
+    json_str = my_package.as_json(indent=2)[:max_chars]
+    print(f"{colorizer(f'Package {package_name} to JSON:')}\n{json_str}\n")
 
 
 def main():
